@@ -1,6 +1,7 @@
-import Button from "./Button";
 import Hero from "./Hero";
 import Navigation from "./Navigation";
+
+import Products from "./Products";
 
 function App() {
   const name = null;
@@ -10,9 +11,8 @@ function App() {
     <div>
       <Navigation name={name} cartCount={cartCount} />
       <Hero />
-      <div className="p-4">
-        <Button>Buy Now</Button>
-      </div>
+
+      <Products />
     </div>
   );
 }
